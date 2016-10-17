@@ -1,0 +1,65 @@
+table
+{
+	
+	border: 5px solid red;
+	background: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td
+{
+    padding: 2px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #E88741;
+}
+#body
+{
+	background: -webkit-repeating-linear-gradient(right,red,orange,yellow,green,blue,indigo,violet	);
+}
+.noborder{
+	padding: 2px;
+	 border: 0px;
+}
+.parpul
+{
+	background	: #c6538c;
+}
+.green
+{
+	background: #aaff00;
+}
+.lightpink
+{
+	background: #ffccff;
+}
+.yellow
+{
+	background: #ffff33;
+}
+.cimint
+{
+	background: #c2d6d6;
+}
+.blue{
+	background: #1a75ff;
+}
+.powderGreen
+{
+ 	background: #1f7a1f;
+}
+.sand
+{
+	background: #bfbfbf;
+}
+.skyblue
+{
+	background: #99ffff;
+}
+.gray
+{
+	background: #75a3a3;
+}
