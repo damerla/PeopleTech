@@ -19,10 +19,10 @@
 <body>
 	<div id='video'>
 		<video style=""
-			src="http://8seconddesigns.com/RecruiterShack_CLIPCHAMP_keep.mp4"
-			loop="loop" autoplay="autoplay" height="1080" width="2048">
-			<source type="video/mp4"
-				src="http://8seconddesigns.com/RecruiterShack_CLIPCHAMP_keep.mp4">
+			src="door.ogv"
+			loop="loop" autoplay="autoplay" height="900" width="1548">
+			<source type="video/ogv"
+				src="door.ogv">
 		</video>
 	</div>
 	<div class='vertical-center'>

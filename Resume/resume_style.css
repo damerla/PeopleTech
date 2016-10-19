@@ -11,6 +11,12 @@ div
     background-color: #668284;
     margin-bottom: 10px
     }
+h2{
+    text-align: center;
+}
+h3{
+    color:blue;
+}
 
 #name {
     float:left;
@@ -98,7 +104,7 @@ td
 
 #course-name
 {
-    font-weight:bold;
+    
     }
 
 #company-name
