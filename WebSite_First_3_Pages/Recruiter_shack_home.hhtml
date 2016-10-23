@@ -1,40 +1,31 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Recruiter Shack</title>
-<link rel="stylesheet"
-	href="../bootstrap.min.css">
-<link rel="stylesheet"
-	href="../bootstrap-social.min.css">
-<link rel="stylesheet"
-	href="../font-awesome.min.css">
-<script
-	src="../jquery.min.js"></script>
-<script
-	src="../bootstrap.min.js"></script>
-<script src="../handlebars.js"></script>
-<link rel="stylesheet" type="text/css" href="recruiter_shack.css">
+	<title>Recruiter Shack</title>
+	<link rel="stylesheet" href="../bootstrap.min.css">
+	<link rel="stylesheet" href="../bootstrap-social.min.css">
+	<link rel="stylesheet" href="../font-awesome.min.css">
+	<script src="../jquery.min.js"></script>
+	<script src="../bootstrap.min.js"></script>
+	<script src="../handlebars.js"></script>
+	<link rel="stylesheet" type="text/css" href="recruiter_shack.css">
 </head>
 
 <body>
 	<div id='video'>
-		<video style=""
-			src="door.ogv"
-			loop="loop" autoplay="autoplay" height="900" width="1548">
-			<source type="video/ogv"
-				src="door.ogv">
+		<video style="" src="door.ogv" loop="loop" autoplay="autoplay" height="900" width="1548">
+			<source type="video/ogv" src="door.ogv">
 		</video>
 	</div>
 	<div class='vertical-center'>
 		<div class="container header-content">
 			<img src="/img/rshLogo.png" alt="" />
 			<h1 id="page-heading">The Easiest Way to Connect with Recruiters</h1>
-
-			<p></p>
-			<a class="link-line" class="user-home" href="recruiter.html">I'm
-				a Recruiter</a> <a class="link-line" class="user-home"
-				href="jobseeker.html">I'm Looking for a Job</a>
+			<p></p>	<a class="link-line" class="user-home" href="recruiter.html">I'm
+				a Recruiter</a>  <a class="link-line" class="user-home" href="jobseeker.html">I'm Looking for a Job</a>
 		</div>
 	</div>
 </body>
+
 </html>

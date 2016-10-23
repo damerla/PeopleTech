@@ -1,0 +1,77 @@
+<!doctype HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="dom_manipulation.css">
+	<link rel="stylesheet" href="../bootstrap.min.css">
+	<script src="dom_manipulation.js"></script>
+    <script src="../jquery.min.js"></script>
+    <script src="../bootstrap.min.js"></script>
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><span id = "user_Name" >Hi</span></a>
+    </div>  
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="dropdown" id="hidding"><a class="dropdown-toggle" data-toggle="dropdown" href="#">User <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">View Profile</a></li>
+          <li><a href="#" onclick="edit()">Edit Profile</a></li>
+          <li><a href="#">Change Password</a></li>
+        </ul>
+      </li>
+    </ul>
+      <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"  onclick="registration()"> Sign Up</a></li>
+      <li><a href="#"> Login</a></li>
+    </ul>
+  </div>
+</nav>
+    </div>
+	<div id="welcome">
+		<h1>Welcome User ......!</h1>
+	</div>
+	<div id="login">
+		<form>
+            <label>User Name</label>
+			<input name="user" id="user_name" type="text" /><br>
+            <label>Password</label>
+			<input name="passw" id="pw" type="password" /><br>
+			<input onclick="k()" value="Click me" type="button" />
+		</form>
+	</div>
+	<div id="regist">
+		<form id="regi">
+			<lable>First Name :</lable>
+			<input type="text" name="first_name" required/>
+			<br>
+			<lable>Last Name :</lable>
+			<input type="text" name="last_name" required/>
+			<br>
+			<lable>Email :</lable>
+			<input type="email" name="email" required/>
+			<br>
+			<lable>Phone No :</lable>
+			<input type="number" name="phone" required/>
+			<br>
+			<lable>Password :</lable>
+			<input type="password" name="pw" required/>
+			<br>
+			<lable>Conform Password :</lable>
+			<input type="password" name="conf_pw" required/>
+			<br>
+			<input type="button" value="submit" onclick="reg()">
+		</form>
+	</div>
+</body>
+
+</html>
