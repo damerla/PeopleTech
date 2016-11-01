@@ -1,0 +1,223 @@
+27/10/16
+
+dependecy injection
+modules ,appes and controllesrs
+anatomy of angular applicatiion
+
+
+Angular js:
+ it is a framwork of js.
+ 	uses: we write lot of code for mad dynamic  app.
+ 	simple and syncronixation sim
+
+ 	create more dynamicness to  app
+
+ 	it provide interface and sevices , facilitys 
+ 	client side tech.
+ 	html template lang 
+
+ 	Help to deve:
+ 		provides  structer to fule with code easlly
+ 		follow the module level approch(less errors).
+ 		Dependency injection
+ 		Testing
+ 		Ajax services(allows to use commuincate web servers)
+ 		helps in creation of RIA (reach Internet application) means add all fecilitys now a days.
+
+ 	failures:
+ 		less secure
+ 		Not degradable(browser not support JS  AJS not use)
+ 	Who controls:
+ 		Open source  funded by google
+
+ 	diff others:
+ 		SPA
+ 		html to give ti native MVC capabulity	
+
+
+
+ 	MV*(Modle conrol  anything) is  application design patteren
+ 	 in order to manage code 
+
+ 	 app logic (v)(it respone to  user req send date)
+ 	 bussiness logic(c)(user has pass instruction by event)
+ 	 DB logid(M)(allow to intract to user)
+
+
+ 	 mvvm(model to view , view to model)
+
+
+
+ 	 Add AJS in HTML:
+ 	 	1. add library
+ 	 	2.<html ng-app=""> to set interpiter.
+ 	 ng-  likt it start it is customized attributs to add to html.
+
+ 	 	ng-modle ="name" --------------->input date
+ 	 	{{name}}--------------->output data 
+ 	 	Here bind the date
+ 	 	here "name" is application varible 
+
+ 	 	rc(relese condidate)
+
+ 	 remove white space it calls min file
+
+ 	  one way and two data binding is there(user interface to modle  not modle to ui)
+ 		if sadisby  then it is two way
+
+
+
+ 		two way data bind
+
+
+
+ 			var myApp = angular.mdule("myapp" , []);
+ 			member apperator indicatro
+
+
+
+ 	$scope having varible and function(db and veiw access  this scope)
+ 	$filter format the contern
+
+ 	Module/appliaciton :
+ 	app is name of module.
+ 	it is container  represtnr a part of app
+
+ 	is a block and fragment in page
+ 	it having controlers(evry contoler having one $scope it is default)
+ 	it containg or connect to someny  aspects
+
+
+
+contolers:
+all behavier  of modlules we create,
+it hold data some period of time
+
+
+
+vat myapp = angular.module("muapp" ,[]);
+
+ 	Interpolation:
+ 	combaining string and place holde.
+ 	it like sting concatination
+
+ 	 js object   it is a app obje
+ 	 special property both modle and view access same  varible
+
+
+
+
+ 	 one html page having may modules?
+ 	 nesed modules is existing?
+
+
+
+28/10/16  :
+	
+
+	Dependency injection:
+	 passing object as a parameter to one functio to another function
+	 inject some depenceny to particular function.
+
+
+	 three ways to store dependency:
+
+		 in controler finction   create dependency
+
+		 golbal
+
+		 invoke a () send a dependency
+
+
+	 it is a design patteren
+
+	 hardCode:
+		 	if create local ver in fuction  it is hotcoded (static)
+		
+		 for removeing hardcode remove we interduce dependency INjectuon
+
+		  any element u use anglerjs is called component
+		  note: when  html element has event fire the instance will create in  NG
+	$inject :
+		responce for fond the object instantioation create
+
+	consumer: is a html where u invock the function
+
+	annotatite():
+		inline and extranal(explicitly) annotatioe
+
+		inline :
+			contorl a array how may paramerers we required
+
+
+
+	Scope in  NG:
+		it provide service/interface
+
+	watchers and digest loop  :                         anhancement
+		js has maintian all events in one file
+		 and every time checkong event has happens by loop that loop is  called event loop.
+
+		 some watchers has intement o eventloop  and create 
+	Dirty checking:
+		it checking old value and new value 
+		watch collection:
+		evalAsync List
+
+
+		$scop.$apply():
+		scope evvent propagation
+		this total process is colled digest loop.
+
+
+
+
+
+
+
+
+
+
+ 	 Interpiter
+Q. current version
+modle and app same
+
+
+crick buzz check table balues to other  files
+try to creat  resterent form 
+
+two way data bind assingment
+
+
+
+
+
+31/10/16:
+ Events in angulr ja:
+
+ 	propagated   accrose one scope to an other scope  (sharing)
+ 	 $emiting() -------------calce  is ther for event
+
+ 	 $broadcast();
+
+ 	 $on() only registor  with the particural ivent  those contolar only share the data,
+
+
+ 	Expressions:
+ 		what ever statement that producing value is called expression.
+
+ 		bindingexpression -{{}}
+ 		ng-bing
+
+
+ 		eval(),$parse
+ 		forgiving
+ 		Context
+
+ 		parsing:
+
+ 	InterPolation  sting
+
+
+ 	forms:
+ 		

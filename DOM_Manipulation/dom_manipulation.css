@@ -3,6 +3,9 @@
 }
 #regist {
 	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
 li#hidding {
     display: none;
